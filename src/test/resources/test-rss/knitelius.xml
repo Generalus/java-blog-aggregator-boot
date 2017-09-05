@@ -1,31 +1,40 @@
-<?xml version="1.0" encoding="UTF-8"?><feed
-  xmlns="http://www.w3.org/2005/Atom"
-  xmlns:thr="http://purl.org/syndication/thread/1.0"
-  xml:lang="en-US"
-  xml:base="http://www.knitelius.com/wp-atom.php"
-   >
-	<title type="text">{Stephan}Knitelius</title>
-	<subtitle type="text">Winter is coming</subtitle>
+<?xml version="1.0" encoding="UTF-8"?>
+<feed
+        xmlns="http://www.w3.org/2005/Atom"
+        xmlns:thr="http://purl.org/syndication/thread/1.0"
+        xml:lang="en-US"
+        xml:base="http://www.knitelius.com/wp-atom.php"
+>
+    <title type="text">{Stephan}Knitelius</title>
+    <subtitle type="text">Winter is coming</subtitle>
 
-	<updated>2015-03-03T23:15:22Z</updated>
+    <updated>2015-03-03T23:15:22Z</updated>
 
-	<link rel="alternate" type="text/html" href="http://www.knitelius.com" />
-	<id>http://www.knitelius.com/feed/atom/</id>
-	<link rel="self" type="application/atom+xml" href="http://www.knitelius.com/feed/atom/" />
+    <link rel="alternate" type="text/html" href="http://www.knitelius.com"/>
+    <id>http://www.knitelius.com/feed/atom/</id>
+    <link rel="self" type="application/atom+xml" href="http://www.knitelius.com/feed/atom/"/>
 
-	<generator uri="http://wordpress.org/" version="4.1.1">WordPress</generator>
-	<entry>
-		<author>
-			<name>Stephan Knitelius</name>
-						<uri>http://www.knitelius.com</uri>
-					</author>
-		<title type="html"><![CDATA[JSF 2 AJAX/Submit issues with @ConversationScoped Beans]]></title>
-		<link rel="alternate" type="text/html" href="http://www.knitelius.com/2015/03/03/jsf-2-ajaxsubmit-issues-with-conversationscoped-beans/" />
-		<id>http://www.knitelius.com/?p=278</id>
-		<updated>2015-03-03T23:13:16Z</updated>
-		<published>2015-03-03T21:50:19Z</published>
-		<category scheme="http://www.knitelius.com" term="Uncategorized" /><category scheme="http://www.knitelius.com" term="CDI" /><category scheme="http://www.knitelius.com" term="JavaScript" /><category scheme="http://www.knitelius.com" term="JSF 2" />		<summary type="html"><![CDATA[When working with ConversationScoped Beans and AJAX, you always have to be careful not to run into BusyConversationExceptions. Lets consider the following scenario where the inputField triggers an ajax event when the value is changed: When you change the input and click on the commandButton, without triggering the change event by exiting the field first, &#8230; <a href="http://www.knitelius.com/2015/03/03/jsf-2-ajaxsubmit-issues-with-conversationscoped-beans/" class="more-link">Continue reading <span class="screen-reader-text">JSF 2 AJAX/Submit issues with @ConversationScoped Beans</span> <span class="meta-nav">&#8594;</span></a>]]></summary>
-		<content type="html" xml:base="http://www.knitelius.com/2015/03/03/jsf-2-ajaxsubmit-issues-with-conversationscoped-beans/"><![CDATA[<p>When working with ConversationScoped Beans and AJAX, you always have to be careful not to run into BusyConversationExceptions.</p>
+    <generator uri="http://wordpress.org/" version="4.1.1">WordPress</generator>
+    <entry>
+        <author>
+            <name>Stephan Knitelius</name>
+            <uri>http://www.knitelius.com</uri>
+        </author>
+        <title type="html"><![CDATA[JSF 2 AJAX/Submit issues with @ConversationScoped Beans]]></title>
+        <link rel="alternate" type="text/html"
+              href="http://www.knitelius.com/2015/03/03/jsf-2-ajaxsubmit-issues-with-conversationscoped-beans/"/>
+        <id>http://www.knitelius.com/?p=278</id>
+        <updated>2015-03-03T23:13:16Z</updated>
+        <published>2015-03-03T21:50:19Z</published>
+        <category scheme="http://www.knitelius.com" term="Uncategorized"/>
+        <category scheme="http://www.knitelius.com" term="CDI"/>
+        <category scheme="http://www.knitelius.com" term="JavaScript"/>
+        <category scheme="http://www.knitelius.com" term="JSF 2"/>
+        <summary type="html">
+            <![CDATA[When working with ConversationScoped Beans and AJAX, you always have to be careful not to run into BusyConversationExceptions. Lets consider the following scenario where the inputField triggers an ajax event when the value is changed: When you change the input and click on the commandButton, without triggering the change event by exiting the field first, &#8230; <a href="http://www.knitelius.com/2015/03/03/jsf-2-ajaxsubmit-issues-with-conversationscoped-beans/" class="more-link">Continue reading <span class="screen-reader-text">JSF 2 AJAX/Submit issues with @ConversationScoped Beans</span> <span class="meta-nav">&#8594;</span></a>]]></summary>
+        <content type="html"
+                 xml:base="http://www.knitelius.com/2015/03/03/jsf-2-ajaxsubmit-issues-with-conversationscoped-beans/">
+            <![CDATA[<p>When working with ConversationScoped Beans and AJAX, you always have to be careful not to run into BusyConversationExceptions.</p>
 <p>Lets consider the following scenario where the inputField triggers an ajax event when the value is changed:</p>
 <pre class="brush: xml; title: ; notranslate">
 &lt;h:inputField value=&quot;#{conversationScopedBean.bar}&quot; ...&gt;
@@ -103,22 +112,35 @@ jsf.ajax.addOnEvent(function(data) {
 <a href="http://download.oracle.com/otndocs/jcp/jsf-2.0-fr-full-oth-JSpec/" target="_blank">JSR-314 JavaServer Faces 2.0 Final Release</a><br />
 <a href="http://www.knitelius.com/2014/07/15/keeping-focus-on-element-with-jsf-2-ajax-render/" target="_blank">Keeping focus on element with JSF 2 AJAX render</a></p>
 <script type="text/javascript" src="http://platform.linkedin.com/in.js"></script><script type="in/share" data-url="http://www.knitelius.com/2015/03/03/jsf-2-ajaxsubmit-issues-with-conversationscoped-beans/"></script>]]></content>
-			<link rel="replies" type="text/html" href="http://www.knitelius.com/2015/03/03/jsf-2-ajaxsubmit-issues-with-conversationscoped-beans/#comments" thr:count="0"/>
-		<link rel="replies" type="application/atom+xml" href="http://www.knitelius.com/2015/03/03/jsf-2-ajaxsubmit-issues-with-conversationscoped-beans/feed/atom/" thr:count="0"/>
-		<thr:total>0</thr:total>
-	</entry>
-		<entry>
-		<author>
-			<name>Stephan Knitelius</name>
-						<uri>http://www.knitelius.com</uri>
-					</author>
-		<title type="html"><![CDATA[Keeping focus on element with JSF 2 AJAX render]]></title>
-		<link rel="alternate" type="text/html" href="http://www.knitelius.com/2014/07/15/keeping-focus-on-element-with-jsf-2-ajax-render/" />
-		<id>http://www.knitelius.com/?p=27</id>
-		<updated>2015-03-03T23:14:18Z</updated>
-		<published>2014-07-15T18:04:17Z</published>
-		<category scheme="http://www.knitelius.com" term="Uncategorized" /><category scheme="http://www.knitelius.com" term="AJAX" /><category scheme="http://www.knitelius.com" term="JavaScript" /><category scheme="http://www.knitelius.com" term="JSF" /><category scheme="http://www.knitelius.com" term="JSF 2" />		<summary type="html"><![CDATA[Anyone who has developed JSF 2 applications for any length of time, will have come across the issue that element focus may get lost when AJAX rendering is preformed. So what is the cause of this? I have constructed a simple webapp to demonstrate the issue and show a potential solution. One of the simplest possible &#8230; <a href="http://www.knitelius.com/2014/07/15/keeping-focus-on-element-with-jsf-2-ajax-render/" class="more-link">Continue reading <span class="screen-reader-text">Keeping focus on element with JSF 2 AJAX render</span> <span class="meta-nav">&#8594;</span></a>]]></summary>
-		<content type="html" xml:base="http://www.knitelius.com/2014/07/15/keeping-focus-on-element-with-jsf-2-ajax-render/"><![CDATA[<p>Anyone who has developed JSF 2 applications for any length of time, will have come across the issue that element focus may get lost when AJAX rendering is preformed.<br />
+        <link rel="replies" type="text/html"
+              href="http://www.knitelius.com/2015/03/03/jsf-2-ajaxsubmit-issues-with-conversationscoped-beans/#comments"
+              thr:count="0"/>
+        <link rel="replies" type="application/atom+xml"
+              href="http://www.knitelius.com/2015/03/03/jsf-2-ajaxsubmit-issues-with-conversationscoped-beans/feed/atom/"
+              thr:count="0"/>
+        <thr:total>0</thr:total>
+    </entry>
+    <entry>
+        <author>
+            <name>Stephan Knitelius</name>
+            <uri>http://www.knitelius.com</uri>
+        </author>
+        <title type="html"><![CDATA[Keeping focus on element with JSF 2 AJAX render]]></title>
+        <link rel="alternate" type="text/html"
+              href="http://www.knitelius.com/2014/07/15/keeping-focus-on-element-with-jsf-2-ajax-render/"/>
+        <id>http://www.knitelius.com/?p=27</id>
+        <updated>2015-03-03T23:14:18Z</updated>
+        <published>2014-07-15T18:04:17Z</published>
+        <category scheme="http://www.knitelius.com" term="Uncategorized"/>
+        <category scheme="http://www.knitelius.com" term="AJAX"/>
+        <category scheme="http://www.knitelius.com" term="JavaScript"/>
+        <category scheme="http://www.knitelius.com" term="JSF"/>
+        <category scheme="http://www.knitelius.com" term="JSF 2"/>
+        <summary type="html">
+            <![CDATA[Anyone who has developed JSF 2 applications for any length of time, will have come across the issue that element focus may get lost when AJAX rendering is preformed. So what is the cause of this? I have constructed a simple webapp to demonstrate the issue and show a potential solution. One of the simplest possible &#8230; <a href="http://www.knitelius.com/2014/07/15/keeping-focus-on-element-with-jsf-2-ajax-render/" class="more-link">Continue reading <span class="screen-reader-text">Keeping focus on element with JSF 2 AJAX render</span> <span class="meta-nav">&#8594;</span></a>]]></summary>
+        <content type="html"
+                 xml:base="http://www.knitelius.com/2014/07/15/keeping-focus-on-element-with-jsf-2-ajax-render/">
+            <![CDATA[<p>Anyone who has developed JSF 2 applications for any length of time, will have come across the issue that element focus may get lost when AJAX rendering is preformed.<br />
 So what is the cause of this? I have constructed a simple webapp to demonstrate the issue and show a potential solution.</p>
 <p>One of the simplest possible scenario is a simple value change event that triggers a render on the following field:</p>
 <pre class="brush: xml; title: ; notranslate">
@@ -262,22 +284,34 @@ function refocus() {
 <p><strong>Related resources:</strong><br />
 <a href="http://download.oracle.com/otndocs/jcp/jsf-2.0-fr-full-oth-JSpec/" target="_blank">JSR-314 JavaServer Faces 2.0 Final Release</a></p>
 <script type="text/javascript" src="http://platform.linkedin.com/in.js"></script><script type="in/share" data-url="http://www.knitelius.com/2014/07/15/keeping-focus-on-element-with-jsf-2-ajax-render/"></script>]]></content>
-			<link rel="replies" type="text/html" href="http://www.knitelius.com/2014/07/15/keeping-focus-on-element-with-jsf-2-ajax-render/#comments" thr:count="3"/>
-		<link rel="replies" type="application/atom+xml" href="http://www.knitelius.com/2014/07/15/keeping-focus-on-element-with-jsf-2-ajax-render/feed/atom/" thr:count="3"/>
-		<thr:total>3</thr:total>
-	</entry>
-		<entry>
-		<author>
-			<name>Stephan Knitelius</name>
-						<uri>http://www.knitelius.com</uri>
-					</author>
-		<title type="html"><![CDATA[Push notifications with JEE 6]]></title>
-		<link rel="alternate" type="text/html" href="http://www.knitelius.com/2014/07/01/push-notifications-with-jee-6/" />
-		<id>http://www.knitelius.com/?p=24</id>
-		<updated>2015-03-03T23:15:22Z</updated>
-		<published>2014-07-01T20:10:24Z</published>
-		<category scheme="http://www.knitelius.com" term="Uncategorized" /><category scheme="http://www.knitelius.com" term="EJB" /><category scheme="http://www.knitelius.com" term="JEE" /><category scheme="http://www.knitelius.com" term="JEE 6" /><category scheme="http://www.knitelius.com" term="Servlet" /><category scheme="http://www.knitelius.com" term="Servlet 3.0" />		<summary type="html"><![CDATA[For most modern webapps push notifications have become a standard requirement. WebSockets would be my first choice, however it has only become available with JEE 7. It will take some time until JEE 7 compliant servers reach main stream production environments. In the mean time we can achieve similar behavior with Servlet 3.0, which has &#8230; <a href="http://www.knitelius.com/2014/07/01/push-notifications-with-jee-6/" class="more-link">Continue reading <span class="screen-reader-text">Push notifications with JEE 6</span> <span class="meta-nav">&#8594;</span></a>]]></summary>
-		<content type="html" xml:base="http://www.knitelius.com/2014/07/01/push-notifications-with-jee-6/"><![CDATA[<p>For most modern webapps push notifications have become a standard requirement. WebSockets would be my first choice, however it has only become available with JEE 7. It will take some time until JEE 7 compliant servers reach main stream production environments. </p>
+        <link rel="replies" type="text/html"
+              href="http://www.knitelius.com/2014/07/15/keeping-focus-on-element-with-jsf-2-ajax-render/#comments"
+              thr:count="3"/>
+        <link rel="replies" type="application/atom+xml"
+              href="http://www.knitelius.com/2014/07/15/keeping-focus-on-element-with-jsf-2-ajax-render/feed/atom/"
+              thr:count="3"/>
+        <thr:total>3</thr:total>
+    </entry>
+    <entry>
+        <author>
+            <name>Stephan Knitelius</name>
+            <uri>http://www.knitelius.com</uri>
+        </author>
+        <title type="html"><![CDATA[Push notifications with JEE 6]]></title>
+        <link rel="alternate" type="text/html"
+              href="http://www.knitelius.com/2014/07/01/push-notifications-with-jee-6/"/>
+        <id>http://www.knitelius.com/?p=24</id>
+        <updated>2015-03-03T23:15:22Z</updated>
+        <published>2014-07-01T20:10:24Z</published>
+        <category scheme="http://www.knitelius.com" term="Uncategorized"/>
+        <category scheme="http://www.knitelius.com" term="EJB"/>
+        <category scheme="http://www.knitelius.com" term="JEE"/>
+        <category scheme="http://www.knitelius.com" term="JEE 6"/>
+        <category scheme="http://www.knitelius.com" term="Servlet"/>
+        <category scheme="http://www.knitelius.com" term="Servlet 3.0"/>
+        <summary type="html">
+            <![CDATA[For most modern webapps push notifications have become a standard requirement. WebSockets would be my first choice, however it has only become available with JEE 7. It will take some time until JEE 7 compliant servers reach main stream production environments. In the mean time we can achieve similar behavior with Servlet 3.0, which has &#8230; <a href="http://www.knitelius.com/2014/07/01/push-notifications-with-jee-6/" class="more-link">Continue reading <span class="screen-reader-text">Push notifications with JEE 6</span> <span class="meta-nav">&#8594;</span></a>]]></summary>
+        <content type="html" xml:base="http://www.knitelius.com/2014/07/01/push-notifications-with-jee-6/"><![CDATA[<p>For most modern webapps push notifications have become a standard requirement. WebSockets would be my first choice, however it has only become available with JEE 7. It will take some time until JEE 7 compliant servers reach main stream production environments. </p>
 <p>In the mean time we can achieve similar behavior with Servlet 3.0, which has become part of the JEE 6 specification, either by polling or long polling.</p>
 <p>Polling relies on the client repeatedly sending requests to the server, polling for new messages. This will often result in empty responses, to avoid this unnecessary traffic we can hold on to the request until a new message is available or time-out is reached (long polling). </p>
 <p>Effectively long polling requires the client to send a request, which is kept alive by the server until a response is available or a time out occurs. It is up to the client to initiate another request in both cases. </p>
@@ -399,8 +433,10 @@ public class EventGenerator {
 <a href="https://jcp.org/en/jsr/detail?id=315" target="_blank">JSR 315: Java Servlet 3.0 Specification</a><br />
 <a href="http://www.javaworld.com/article/2077995/java-concurrency/asynchronous-processing-support-in-servlet-3-0.html" target="_blank">Asynchronous processing support in Servlet 3.0</a></p>
 <script type="text/javascript" src="http://platform.linkedin.com/in.js"></script><script type="in/share" data-url="http://www.knitelius.com/2014/07/01/push-notifications-with-jee-6/"></script>]]></content>
-			<link rel="replies" type="text/html" href="http://www.knitelius.com/2014/07/01/push-notifications-with-jee-6/#comments" thr:count="2"/>
-		<link rel="replies" type="application/atom+xml" href="http://www.knitelius.com/2014/07/01/push-notifications-with-jee-6/feed/atom/" thr:count="2"/>
-		<thr:total>2</thr:total>
-	</entry>
-	</feed>
+        <link rel="replies" type="text/html"
+              href="http://www.knitelius.com/2014/07/01/push-notifications-with-jee-6/#comments" thr:count="2"/>
+        <link rel="replies" type="application/atom+xml"
+              href="http://www.knitelius.com/2014/07/01/push-notifications-with-jee-6/feed/atom/" thr:count="2"/>
+        <thr:total>2</thr:total>
+    </entry>
+</feed>

@@ -1,28 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" media="screen" href="/~d/styles/rss2full.xsl"?><?xml-stylesheet type="text/css" media="screen" href="http://feeds.feedburner.com/~d/styles/itemcontent.css"?><rss xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" version="2.0">
+<?xml-stylesheet type="text/xsl" media="screen" href="/~d/styles/rss2full.xsl"?><?xml-stylesheet type="text/css" media="screen" href="http://feeds.feedburner.com/~d/styles/itemcontent.css"?>
+<rss xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+     xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" version="2.0">
 
-<channel>
-	<title>Baeldung</title>
-	
-	<link>http://www.baeldung.com</link>
-	<description>Java, Spring and Web Development tutorials</description>
-	<lastBuildDate>Fri, 27 Feb 2015 22:03:40 +0000</lastBuildDate>
-	<language>en-US</language>
-	<sy:updatePeriod>hourly</sy:updatePeriod>
-	<sy:updateFrequency>1</sy:updateFrequency>
-	<generator>http://wordpress.org/?v=4.1.1</generator>
-	<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml" href="http://feeds.feedburner.com/Baeldung" /><feedburner:info uri="baeldung" /><atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/" /><item>
-		<title>Authenticating with Reddit OAuth2 and Spring Security</title>
-		<link>http://feedproxy.google.com/~r/Baeldung/~3/dmHCtNXELgg/spring-security-oauth2-authentication-with-reddit</link>
-		<comments>http://www.baeldung.com/spring-security-oauth2-authentication-with-reddit#comments</comments>
-		<pubDate>Fri, 27 Feb 2015 22:03:40 +0000</pubDate>
-		<dc:creator><![CDATA[Eugen Paraschiv]]></dc:creator>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Spring]]></category>
+    <channel>
+        <title>Baeldung</title>
 
-		<guid isPermaLink="false">http://www.baeldung.com/?p=5795</guid>
-		<description><![CDATA[1. Overview In this tutorial, we&#8217;ll use Spring Security OAuth to authenticate with the Reddit API. 2. Maven Configuration First, in order to use Spring Security OAuth &#8211; we need to add the following dependency to our pom.xml (of course along any other Spring dependency you might use): &#60;dependency&#62; &#60;groupId&#62;org.springframework.security.oauth&#60;/groupId&#62; &#60;artifactId&#62;spring-security-oauth2&#60;/artifactId&#62; &#60;version&#62;2.0.6.RELEASE&#60;/version&#62; &#60;/dependency&#62; 3. Configure [&#8230;]]]></description>
-				<content:encoded><![CDATA[<!-- Start Shortcoder content --><h3><b>I usually post about Security on Twitter - you can follow me there: <br /></b></h3>
+        <link>http://www.baeldung.com</link>
+        <description>Java, Spring and Web Development tutorials</description>
+        <lastBuildDate>Fri, 27 Feb 2015 22:03:40 +0000</lastBuildDate>
+        <language>en-US</language>
+        <sy:updatePeriod>hourly</sy:updatePeriod>
+        <sy:updateFrequency>1</sy:updateFrequency>
+        <generator>http://wordpress.org/?v=4.1.1</generator>
+        <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml"
+                     href="http://feeds.feedburner.com/Baeldung"/>
+        <feedburner:info uri="baeldung"/>
+        <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/"/>
+        <item>
+            <title>Authenticating with Reddit OAuth2 and Spring Security</title>
+            <link>
+                http://feedproxy.google.com/~r/Baeldung/~3/dmHCtNXELgg/spring-security-oauth2-authentication-with-reddit
+            </link>
+            <comments>http://www.baeldung.com/spring-security-oauth2-authentication-with-reddit#comments</comments>
+            <pubDate>Fri, 27 Feb 2015 22:03:40 +0000</pubDate>
+            <dc:creator><![CDATA[Eugen Paraschiv]]></dc:creator>
+            <category><![CDATA[Security]]></category>
+            <category><![CDATA[Spring]]></category>
+
+            <guid isPermaLink="false">http://www.baeldung.com/?p=5795</guid>
+            <description>
+                <![CDATA[1. Overview In this tutorial, we&#8217;ll use Spring Security OAuth to authenticate with the Reddit API. 2. Maven Configuration First, in order to use Spring Security OAuth &#8211; we need to add the following dependency to our pom.xml (of course along any other Spring dependency you might use): &#60;dependency&#62; &#60;groupId&#62;org.springframework.security.oauth&#60;/groupId&#62; &#60;artifactId&#62;spring-security-oauth2&#60;/artifactId&#62; &#60;version&#62;2.0.6.RELEASE&#60;/version&#62; &#60;/dependency&#62; 3. Configure [&#8230;]]]></description>
+            <content:encoded><![CDATA[<!-- Start Shortcoder content --><h3><b>I usually post about Security on Twitter - you can follow me there: <br /></b></h3>
 <p><a class="twitter-follow-button" href="https://twitter.com/baeldung" data-show-count="true" data-size="large" data-dnt="true">Follow @baeldung</a></p>
 <p>
 <script>// < ![CDATA[
@@ -223,20 +234,24 @@ public class RedditController {
 // ]]&gt;</script>
 </p><!-- End Shortcoder content -->
 <img src="//feeds.feedburner.com/~r/Baeldung/~4/dmHCtNXELgg" height="1" width="1" alt=""/>]]></content:encoded>
-			<wfw:commentRss>http://www.baeldung.com/spring-security-oauth2-authentication-with-reddit/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-		<feedburner:origLink>http://www.baeldung.com/spring-security-oauth2-authentication-with-reddit</feedburner:origLink></item>
-		<item>
-		<title>Baeldung Weekly Review 9</title>
-		<link>http://feedproxy.google.com/~r/Baeldung/~3/8la2nitS8M8/2015-week-review-9</link>
-		<comments>http://www.baeldung.com/2015-week-review-9#comments</comments>
-		<pubDate>Fri, 27 Feb 2015 10:34:11 +0000</pubDate>
-		<dc:creator><![CDATA[Eugen Paraschiv]]></dc:creator>
-				<category><![CDATA[Weekly Review]]></category>
+            <wfw:commentRss>http://www.baeldung.com/spring-security-oauth2-authentication-with-reddit/feed/
+            </wfw:commentRss>
+            <slash:comments>0</slash:comments>
+            <feedburner:origLink>http://www.baeldung.com/spring-security-oauth2-authentication-with-reddit
+            </feedburner:origLink>
+        </item>
+        <item>
+            <title>Baeldung Weekly Review 9</title>
+            <link>http://feedproxy.google.com/~r/Baeldung/~3/8la2nitS8M8/2015-week-review-9</link>
+            <comments>http://www.baeldung.com/2015-week-review-9#comments</comments>
+            <pubDate>Fri, 27 Feb 2015 10:34:11 +0000</pubDate>
+            <dc:creator><![CDATA[Eugen Paraschiv]]></dc:creator>
+            <category><![CDATA[Weekly Review]]></category>
 
-		<guid isPermaLink="false">http://www.baeldung.com/?p=5810</guid>
-		<description><![CDATA[At the very beginning of 2014 I decided to track my reading habits and share the best stuff here, on Baeldung. 2014 has been quite the year, covering each week with a review. I&#8217;ve been doing a lot more reading to make sure I cover and curate stuff that has value and is actually worth [&#8230;]]]></description>
-				<content:encoded><![CDATA[<!-- Start Shortcoder content --><h3><b>I usually post about Dev stuff on Twitter - you can follow me there: </b></h3>
+            <guid isPermaLink="false">http://www.baeldung.com/?p=5810</guid>
+            <description>
+                <![CDATA[At the very beginning of 2014 I decided to track my reading habits and share the best stuff here, on Baeldung. 2014 has been quite the year, covering each week with a review. I&#8217;ve been doing a lot more reading to make sure I cover and curate stuff that has value and is actually worth [&#8230;]]]></description>
+            <content:encoded><![CDATA[<!-- Start Shortcoder content --><h3><b>I usually post about Dev stuff on Twitter - you can follow me there: </b></h3>
 <a href="https://twitter.com/baeldung" class="twitter-follow-button" data-show-count="true" data-size="large" data-dnt="true">Follow @baeldung</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 <!-- End Shortcoder content -->
@@ -334,21 +349,23 @@ public class RedditController {
 // ]]&gt;</script>
 </p><!-- End Shortcoder content -->
 <img src="//feeds.feedburner.com/~r/Baeldung/~4/8la2nitS8M8" height="1" width="1" alt=""/>]]></content:encoded>
-			<wfw:commentRss>http://www.baeldung.com/2015-week-review-9/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-		<feedburner:origLink>http://www.baeldung.com/2015-week-review-9</feedburner:origLink></item>
-		<item>
-		<title>Spring Security Registration Tutorial</title>
-		<link>http://feedproxy.google.com/~r/Baeldung/~3/qXj5XeR2gMs/spring-security-registration</link>
-		<comments>http://www.baeldung.com/spring-security-registration#comments</comments>
-		<pubDate>Sun, 22 Feb 2015 16:58:34 +0000</pubDate>
-		<dc:creator><![CDATA[Eugen Paraschiv]]></dc:creator>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Spring]]></category>
+            <wfw:commentRss>http://www.baeldung.com/2015-week-review-9/feed/</wfw:commentRss>
+            <slash:comments>0</slash:comments>
+            <feedburner:origLink>http://www.baeldung.com/2015-week-review-9</feedburner:origLink>
+        </item>
+        <item>
+            <title>Spring Security Registration Tutorial</title>
+            <link>http://feedproxy.google.com/~r/Baeldung/~3/qXj5XeR2gMs/spring-security-registration</link>
+            <comments>http://www.baeldung.com/spring-security-registration#comments</comments>
+            <pubDate>Sun, 22 Feb 2015 16:58:34 +0000</pubDate>
+            <dc:creator><![CDATA[Eugen Paraschiv]]></dc:creator>
+            <category><![CDATA[Security]]></category>
+            <category><![CDATA[Spring]]></category>
 
-		<guid isPermaLink="false">http://www.baeldung.com/?p=5798</guid>
-		<description><![CDATA[Building a full-fledged, production ready registration for your web app is oh so much more than just putting together a simple registration page.]]></description>
-				<content:encoded><![CDATA[<!-- Start Shortcoder content --><h3><b>I usually post about Security on Twitter - you can follow me there: <br /></b></h3>
+            <guid isPermaLink="false">http://www.baeldung.com/?p=5798</guid>
+            <description>
+                <![CDATA[Building a full-fledged, production ready registration for your web app is oh so much more than just putting together a simple registration page.]]></description>
+            <content:encoded><![CDATA[<!-- Start Shortcoder content --><h3><b>I usually post about Security on Twitter - you can follow me there: <br /></b></h3>
 <p><a class="twitter-follow-button" href="https://twitter.com/baeldung" data-show-count="true" data-size="large" data-dnt="true">Follow @baeldung</a></p>
 <p>
 <script>// < ![CDATA[
@@ -385,21 +402,25 @@ public class RedditController {
 // ]]&gt;</script>
 </p><!-- End Shortcoder content -->
 <img src="//feeds.feedburner.com/~r/Baeldung/~4/qXj5XeR2gMs" height="1" width="1" alt=""/>]]></content:encoded>
-			<wfw:commentRss>http://www.baeldung.com/spring-security-registration/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-		<feedburner:origLink>http://www.baeldung.com/spring-security-registration</feedburner:origLink></item>
-		<item>
-		<title>REST Query Language – Advanced Search Operations</title>
-		<link>http://feedproxy.google.com/~r/Baeldung/~3/-CpEF5Trgxo/rest-api-query-search-language-more-operations</link>
-		<comments>http://www.baeldung.com/rest-api-query-search-language-more-operations#comments</comments>
-		<pubDate>Sat, 21 Feb 2015 14:25:40 +0000</pubDate>
-		<dc:creator><![CDATA[Eugen Paraschiv]]></dc:creator>
-				<category><![CDATA[REST]]></category>
-		<category><![CDATA[Spring]]></category>
+            <wfw:commentRss>http://www.baeldung.com/spring-security-registration/feed/</wfw:commentRss>
+            <slash:comments>0</slash:comments>
+            <feedburner:origLink>http://www.baeldung.com/spring-security-registration</feedburner:origLink>
+        </item>
+        <item>
+            <title>REST Query Language – Advanced Search Operations</title>
+            <link>
+                http://feedproxy.google.com/~r/Baeldung/~3/-CpEF5Trgxo/rest-api-query-search-language-more-operations
+            </link>
+            <comments>http://www.baeldung.com/rest-api-query-search-language-more-operations#comments</comments>
+            <pubDate>Sat, 21 Feb 2015 14:25:40 +0000</pubDate>
+            <dc:creator><![CDATA[Eugen Paraschiv]]></dc:creator>
+            <category><![CDATA[REST]]></category>
+            <category><![CDATA[Spring]]></category>
 
-		<guid isPermaLink="false">http://www.baeldung.com/?p=5773</guid>
-		<description><![CDATA[How to implement a mature, tested Query Language for a REST Search API, using Spring and Spring Data JPA Specifications.]]></description>
-				<content:encoded><![CDATA[<!-- Start Shortcoder content --><h3><b>I usually post about REST APIs and HTTP on Twitter - you can follow me there: </b></h3>
+            <guid isPermaLink="false">http://www.baeldung.com/?p=5773</guid>
+            <description>
+                <![CDATA[How to implement a mature, tested Query Language for a REST Search API, using Spring and Spring Data JPA Specifications.]]></description>
+            <content:encoded><![CDATA[<!-- Start Shortcoder content --><h3><b>I usually post about REST APIs and HTTP on Twitter - you can follow me there: </b></h3>
 <a href="https://twitter.com/baeldung" class="twitter-follow-button" data-show-count="true" data-size="large" data-dnt="true">Follow @baeldung</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 <!-- End Shortcoder content -->
@@ -781,20 +802,24 @@ public void givenAgeRange_whenGettingListOfUsers_thenCorrect() {
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 <!-- End Shortcoder content -->
 <img src="//feeds.feedburner.com/~r/Baeldung/~4/-CpEF5Trgxo" height="1" width="1" alt=""/>]]></content:encoded>
-			<wfw:commentRss>http://www.baeldung.com/rest-api-query-search-language-more-operations/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-		<feedburner:origLink>http://www.baeldung.com/rest-api-query-search-language-more-operations</feedburner:origLink></item>
-		<item>
-		<title>Baeldung Weekly Review 8</title>
-		<link>http://feedproxy.google.com/~r/Baeldung/~3/htpoVe8vVXQ/2015-week-review-8</link>
-		<comments>http://www.baeldung.com/2015-week-review-8#comments</comments>
-		<pubDate>Fri, 20 Feb 2015 09:02:01 +0000</pubDate>
-		<dc:creator><![CDATA[Eugen Paraschiv]]></dc:creator>
-				<category><![CDATA[Weekly Review]]></category>
+            <wfw:commentRss>http://www.baeldung.com/rest-api-query-search-language-more-operations/feed/
+            </wfw:commentRss>
+            <slash:comments>0</slash:comments>
+            <feedburner:origLink>http://www.baeldung.com/rest-api-query-search-language-more-operations
+            </feedburner:origLink>
+        </item>
+        <item>
+            <title>Baeldung Weekly Review 8</title>
+            <link>http://feedproxy.google.com/~r/Baeldung/~3/htpoVe8vVXQ/2015-week-review-8</link>
+            <comments>http://www.baeldung.com/2015-week-review-8#comments</comments>
+            <pubDate>Fri, 20 Feb 2015 09:02:01 +0000</pubDate>
+            <dc:creator><![CDATA[Eugen Paraschiv]]></dc:creator>
+            <category><![CDATA[Weekly Review]]></category>
 
-		<guid isPermaLink="false">http://www.baeldung.com/?p=5758</guid>
-		<description><![CDATA[HTTP 2 is final &#8211; the big news of this week (it has been a while since the last one). Also &#8211; some cool deep dives into the JVM and Hibernate.]]></description>
-				<content:encoded><![CDATA[<!-- Start Shortcoder content --><h3><b>I usually post about Dev stuff on Twitter - you can follow me there: </b></h3>
+            <guid isPermaLink="false">http://www.baeldung.com/?p=5758</guid>
+            <description>
+                <![CDATA[HTTP 2 is final &#8211; the big news of this week (it has been a while since the last one). Also &#8211; some cool deep dives into the JVM and Hibernate.]]></description>
+            <content:encoded><![CDATA[<!-- Start Shortcoder content --><h3><b>I usually post about Dev stuff on Twitter - you can follow me there: </b></h3>
 <a href="https://twitter.com/baeldung" class="twitter-follow-button" data-show-count="true" data-size="large" data-dnt="true">Follow @baeldung</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 <!-- End Shortcoder content -->
@@ -912,21 +937,25 @@ public void givenAgeRange_whenGettingListOfUsers_thenCorrect() {
 // ]]&gt;</script>
 </p><!-- End Shortcoder content -->
 <img src="//feeds.feedburner.com/~r/Baeldung/~4/htpoVe8vVXQ" height="1" width="1" alt=""/>]]></content:encoded>
-			<wfw:commentRss>http://www.baeldung.com/2015-week-review-8/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-		<feedburner:origLink>http://www.baeldung.com/2015-week-review-8</feedburner:origLink></item>
-		<item>
-		<title>Spring Security Authentication Tutorial</title>
-		<link>http://feedproxy.google.com/~r/Baeldung/~3/rXtIZhIY_Z4/spring-security-authentication-and-registration</link>
-		<comments>http://www.baeldung.com/spring-security-authentication-and-registration#comments</comments>
-		<pubDate>Sat, 14 Feb 2015 18:52:48 +0000</pubDate>
-		<dc:creator><![CDATA[Eugen Paraschiv]]></dc:creator>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Spring]]></category>
+            <wfw:commentRss>http://www.baeldung.com/2015-week-review-8/feed/</wfw:commentRss>
+            <slash:comments>0</slash:comments>
+            <feedburner:origLink>http://www.baeldung.com/2015-week-review-8</feedburner:origLink>
+        </item>
+        <item>
+            <title>Spring Security Authentication Tutorial</title>
+            <link>
+                http://feedproxy.google.com/~r/Baeldung/~3/rXtIZhIY_Z4/spring-security-authentication-and-registration
+            </link>
+            <comments>http://www.baeldung.com/spring-security-authentication-and-registration#comments</comments>
+            <pubDate>Sat, 14 Feb 2015 18:52:48 +0000</pubDate>
+            <dc:creator><![CDATA[Eugen Paraschiv]]></dc:creator>
+            <category><![CDATA[Security]]></category>
+            <category><![CDATA[Spring]]></category>
 
-		<guid isPermaLink="false">http://www.baeldung.com/?p=5748</guid>
-		<description><![CDATA[How to build a production-grade Registration process for new users, and Login flow for existing users.]]></description>
-				<content:encoded><![CDATA[<!-- Start Shortcoder content --><h3><b>I usually post about Security on Twitter - you can follow me there: <br /></b></h3>
+            <guid isPermaLink="false">http://www.baeldung.com/?p=5748</guid>
+            <description>
+                <![CDATA[How to build a production-grade Registration process for new users, and Login flow for existing users.]]></description>
+            <content:encoded><![CDATA[<!-- Start Shortcoder content --><h3><b>I usually post about Security on Twitter - you can follow me there: <br /></b></h3>
 <p><a class="twitter-follow-button" href="https://twitter.com/baeldung" data-show-count="true" data-size="large" data-dnt="true">Follow @baeldung</a></p>
 <p>
 <script>// < ![CDATA[
@@ -954,21 +983,27 @@ public void givenAgeRange_whenGettingListOfUsers_thenCorrect() {
 // ]]&gt;</script>
 </p><!-- End Shortcoder content -->
 <img src="//feeds.feedburner.com/~r/Baeldung/~4/rXtIZhIY_Z4" height="1" width="1" alt=""/>]]></content:encoded>
-			<wfw:commentRss>http://www.baeldung.com/spring-security-authentication-and-registration/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-		<feedburner:origLink>http://www.baeldung.com/spring-security-authentication-and-registration</feedburner:origLink></item>
-		<item>
-		<title>Spring Security – Reset Your Password</title>
-		<link>http://feedproxy.google.com/~r/Baeldung/~3/WtxrhjjmW4U/spring-security-registration-i-forgot-my-password</link>
-		<comments>http://www.baeldung.com/spring-security-registration-i-forgot-my-password#comments</comments>
-		<pubDate>Sat, 14 Feb 2015 17:10:36 +0000</pubDate>
-		<dc:creator><![CDATA[Eugen Paraschiv]]></dc:creator>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Spring]]></category>
+            <wfw:commentRss>http://www.baeldung.com/spring-security-authentication-and-registration/feed/
+            </wfw:commentRss>
+            <slash:comments>0</slash:comments>
+            <feedburner:origLink>http://www.baeldung.com/spring-security-authentication-and-registration
+            </feedburner:origLink>
+        </item>
+        <item>
+            <title>Spring Security – Reset Your Password</title>
+            <link>
+                http://feedproxy.google.com/~r/Baeldung/~3/WtxrhjjmW4U/spring-security-registration-i-forgot-my-password
+            </link>
+            <comments>http://www.baeldung.com/spring-security-registration-i-forgot-my-password#comments</comments>
+            <pubDate>Sat, 14 Feb 2015 17:10:36 +0000</pubDate>
+            <dc:creator><![CDATA[Eugen Paraschiv]]></dc:creator>
+            <category><![CDATA[Security]]></category>
+            <category><![CDATA[Spring]]></category>
 
-		<guid isPermaLink="false">http://www.baeldung.com/?p=5711</guid>
-		<description><![CDATA[Every app should enable users to change their own password in case they forget it.]]></description>
-				<content:encoded><![CDATA[<!-- Start Shortcoder content --><h3><b>I usually post about Security on Twitter - you can follow me there: <br /></b></h3>
+            <guid isPermaLink="false">http://www.baeldung.com/?p=5711</guid>
+            <description>
+                <![CDATA[Every app should enable users to change their own password in case they forget it.]]></description>
+            <content:encoded><![CDATA[<!-- Start Shortcoder content --><h3><b>I usually post about Security on Twitter - you can follow me there: <br /></b></h3>
 <p><a class="twitter-follow-button" href="https://twitter.com/baeldung" data-show-count="true" data-size="large" data-dnt="true">Follow @baeldung</a></p>
 <p>
 <script>// < ![CDATA[
@@ -1252,21 +1287,28 @@ public GenericResponse savePassword(Locale locale, @RequestParam(&quot;password&
 // ]]&gt;</script>
 </p><!-- End Shortcoder content -->
 <img src="//feeds.feedburner.com/~r/Baeldung/~4/WtxrhjjmW4U" height="1" width="1" alt=""/>]]></content:encoded>
-			<wfw:commentRss>http://www.baeldung.com/spring-security-registration-i-forgot-my-password/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-		<feedburner:origLink>http://www.baeldung.com/spring-security-registration-i-forgot-my-password</feedburner:origLink></item>
-		<item>
-		<title>Prevent Brute Force Authentication Attempts with Spring Security</title>
-		<link>http://feedproxy.google.com/~r/Baeldung/~3/DWaSStBCP-o/spring-security-block-brute-force-authentication-attempts</link>
-		<comments>http://www.baeldung.com/spring-security-block-brute-force-authentication-attempts#comments</comments>
-		<pubDate>Sat, 14 Feb 2015 13:30:47 +0000</pubDate>
-		<dc:creator><![CDATA[Eugen Paraschiv]]></dc:creator>
-				<category><![CDATA[Security]]></category>
-		<category><![CDATA[Spring]]></category>
+            <wfw:commentRss>http://www.baeldung.com/spring-security-registration-i-forgot-my-password/feed/
+            </wfw:commentRss>
+            <slash:comments>0</slash:comments>
+            <feedburner:origLink>http://www.baeldung.com/spring-security-registration-i-forgot-my-password
+            </feedburner:origLink>
+        </item>
+        <item>
+            <title>Prevent Brute Force Authentication Attempts with Spring Security</title>
+            <link>
+                http://feedproxy.google.com/~r/Baeldung/~3/DWaSStBCP-o/spring-security-block-brute-force-authentication-attempts
+            </link>
+            <comments>http://www.baeldung.com/spring-security-block-brute-force-authentication-attempts#comments
+            </comments>
+            <pubDate>Sat, 14 Feb 2015 13:30:47 +0000</pubDate>
+            <dc:creator><![CDATA[Eugen Paraschiv]]></dc:creator>
+            <category><![CDATA[Security]]></category>
+            <category><![CDATA[Spring]]></category>
 
-		<guid isPermaLink="false">http://www.baeldung.com/?p=5731</guid>
-		<description><![CDATA[Block users by IP after a number of failed authentication attempts &#8211; a simple mechanism implemented with Spring Security.]]></description>
-				<content:encoded><![CDATA[<!-- Start Shortcoder content --><h3><b>I usually post about Security on Twitter - you can follow me there: <br /></b></h3>
+            <guid isPermaLink="false">http://www.baeldung.com/?p=5731</guid>
+            <description>
+                <![CDATA[Block users by IP after a number of failed authentication attempts &#8211; a simple mechanism implemented with Spring Security.]]></description>
+            <content:encoded><![CDATA[<!-- Start Shortcoder content --><h3><b>I usually post about Security on Twitter - you can follow me there: <br /></b></h3>
 <p><a class="twitter-follow-button" href="https://twitter.com/baeldung" data-show-count="true" data-size="large" data-dnt="true">Follow @baeldung</a></p>
 <p>
 <script>// < ![CDATA[
@@ -1436,20 +1478,24 @@ public class MyUserDetailsService implements UserDetailsService {
 // ]]&gt;</script>
 </p><!-- End Shortcoder content -->
 <img src="//feeds.feedburner.com/~r/Baeldung/~4/DWaSStBCP-o" height="1" width="1" alt=""/>]]></content:encoded>
-			<wfw:commentRss>http://www.baeldung.com/spring-security-block-brute-force-authentication-attempts/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-		<feedburner:origLink>http://www.baeldung.com/spring-security-block-brute-force-authentication-attempts</feedburner:origLink></item>
-		<item>
-		<title>Baeldung Weekly Review 7</title>
-		<link>http://feedproxy.google.com/~r/Baeldung/~3/3pZhzLsxYQk/2015-week-review-7</link>
-		<comments>http://www.baeldung.com/2015-week-review-7#comments</comments>
-		<pubDate>Fri, 13 Feb 2015 12:00:27 +0000</pubDate>
-		<dc:creator><![CDATA[Eugen Paraschiv]]></dc:creator>
-				<category><![CDATA[Weekly Review]]></category>
+            <wfw:commentRss>http://www.baeldung.com/spring-security-block-brute-force-authentication-attempts/feed/
+            </wfw:commentRss>
+            <slash:comments>0</slash:comments>
+            <feedburner:origLink>http://www.baeldung.com/spring-security-block-brute-force-authentication-attempts
+            </feedburner:origLink>
+        </item>
+        <item>
+            <title>Baeldung Weekly Review 7</title>
+            <link>http://feedproxy.google.com/~r/Baeldung/~3/3pZhzLsxYQk/2015-week-review-7</link>
+            <comments>http://www.baeldung.com/2015-week-review-7#comments</comments>
+            <pubDate>Fri, 13 Feb 2015 12:00:27 +0000</pubDate>
+            <dc:creator><![CDATA[Eugen Paraschiv]]></dc:creator>
+            <category><![CDATA[Weekly Review]]></category>
 
-		<guid isPermaLink="false">http://www.baeldung.com/?p=5716</guid>
-		<description><![CDATA[A busy week for the Spring ecosystem, with Spring 4.2 getting closer and closer. A discussion about timezones as well &#8211; what more do we need?]]></description>
-				<content:encoded><![CDATA[<!-- Start Shortcoder content --><h3><b>I usually post about Dev stuff on Twitter - you can follow me there: </b></h3>
+            <guid isPermaLink="false">http://www.baeldung.com/?p=5716</guid>
+            <description>
+                <![CDATA[A busy week for the Spring ecosystem, with Spring 4.2 getting closer and closer. A discussion about timezones as well &#8211; what more do we need?]]></description>
+            <content:encoded><![CDATA[<!-- Start Shortcoder content --><h3><b>I usually post about Dev stuff on Twitter - you can follow me there: </b></h3>
 <a href="https://twitter.com/baeldung" class="twitter-follow-button" data-show-count="true" data-size="large" data-dnt="true">Follow @baeldung</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 <!-- End Shortcoder content -->
@@ -1544,20 +1590,22 @@ public class MyUserDetailsService implements UserDetailsService {
 // ]]&gt;</script>
 </p><!-- End Shortcoder content -->
 <img src="//feeds.feedburner.com/~r/Baeldung/~4/3pZhzLsxYQk" height="1" width="1" alt=""/>]]></content:encoded>
-			<wfw:commentRss>http://www.baeldung.com/2015-week-review-7/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-		<feedburner:origLink>http://www.baeldung.com/2015-week-review-7</feedburner:origLink></item>
-		<item>
-		<title>Baeldung Weekly Review 6</title>
-		<link>http://feedproxy.google.com/~r/Baeldung/~3/CaiBxKs_4cI/2015-week-review-6</link>
-		<comments>http://www.baeldung.com/2015-week-review-6#comments</comments>
-		<pubDate>Fri, 06 Feb 2015 12:42:58 +0000</pubDate>
-		<dc:creator><![CDATA[Eugen Paraschiv]]></dc:creator>
-				<category><![CDATA[Weekly Review]]></category>
+            <wfw:commentRss>http://www.baeldung.com/2015-week-review-7/feed/</wfw:commentRss>
+            <slash:comments>0</slash:comments>
+            <feedburner:origLink>http://www.baeldung.com/2015-week-review-7</feedburner:origLink>
+        </item>
+        <item>
+            <title>Baeldung Weekly Review 6</title>
+            <link>http://feedproxy.google.com/~r/Baeldung/~3/CaiBxKs_4cI/2015-week-review-6</link>
+            <comments>http://www.baeldung.com/2015-week-review-6#comments</comments>
+            <pubDate>Fri, 06 Feb 2015 12:42:58 +0000</pubDate>
+            <dc:creator><![CDATA[Eugen Paraschiv]]></dc:creator>
+            <category><![CDATA[Weekly Review]]></category>
 
-		<guid isPermaLink="false">http://www.baeldung.com/?p=5692</guid>
-		<description><![CDATA[Some great Java back-to-basic articles, insights into building APIs and a discussion about backups. Good first week of February in my book.]]></description>
-				<content:encoded><![CDATA[<!-- Start Shortcoder content --><h3><b>I usually post about Dev stuff on Twitter - you can follow me there: </b></h3>
+            <guid isPermaLink="false">http://www.baeldung.com/?p=5692</guid>
+            <description>
+                <![CDATA[Some great Java back-to-basic articles, insights into building APIs and a discussion about backups. Good first week of February in my book.]]></description>
+            <content:encoded><![CDATA[<!-- Start Shortcoder content --><h3><b>I usually post about Dev stuff on Twitter - you can follow me there: </b></h3>
 <a href="https://twitter.com/baeldung" class="twitter-follow-button" data-show-count="true" data-size="large" data-dnt="true">Follow @baeldung</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 <!-- End Shortcoder content -->
@@ -1631,10 +1679,11 @@ public class MyUserDetailsService implements UserDetailsService {
 // ]]&gt;</script>
 </p><!-- End Shortcoder content -->
 <img src="//feeds.feedburner.com/~r/Baeldung/~4/CaiBxKs_4cI" height="1" width="1" alt=""/>]]></content:encoded>
-			<wfw:commentRss>http://www.baeldung.com/2015-week-review-6/feed/</wfw:commentRss>
-		<slash:comments>2</slash:comments>
-		<feedburner:origLink>http://www.baeldung.com/2015-week-review-6</feedburner:origLink></item>
-	</channel>
+            <wfw:commentRss>http://www.baeldung.com/2015-week-review-6/feed/</wfw:commentRss>
+            <slash:comments>2</slash:comments>
+            <feedburner:origLink>http://www.baeldung.com/2015-week-review-6</feedburner:origLink>
+        </item>
+    </channel>
 </rss><!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
 
 Minified using disk

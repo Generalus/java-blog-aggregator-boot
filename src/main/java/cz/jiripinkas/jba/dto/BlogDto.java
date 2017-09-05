@@ -4,58 +4,58 @@ import cz.jiripinkas.jba.util.MyUtil;
 
 public class BlogDto {
 
-	private String name;
+    private String name;
 
-	private String nick;
+    private String nick;
 
-	private String shortName;
+    private String shortName;
 
-	private int id;
+    private int id;
 
-	private CategoryDto category;
+    private CategoryDto category;
 
-	public String getPublicName() {
-		return MyUtil.getPublicName(nick, name, true);
-	}
+    public String getPublicName() {
+        return MyUtil.getPublicName(nick, name, true);
+    }
 
-	public CategoryDto getCategory() {
-		return category;
-	}
+    public CategoryDto getCategory() {
+        return category;
+    }
 
-	public void setCategory(CategoryDto category) {
-		this.category = category;
-	}
+    public void setCategory(CategoryDto category) {
+        this.category = category;
+    }
 
-	public String getShortName() {
-		return shortName;
-	}
+    public String getShortName() {
+        return shortName;
+    }
 
-	public void setShortName(String shortName) {
-		this.shortName = shortName;
-	}
+    public void setShortName(String shortName) {
+        this.shortName = shortName;
+    }
 
-	public int getId() {
-		return id;
-	}
+    public int getId() {
+        return id;
+    }
 
-	public void setId(int id) {
-		this.id = id;
-	}
+    public void setId(int id) {
+        this.id = id;
+    }
 
-	public String getName() {
-		return name;
-	}
+    public String getName() {
+        return name;
+    }
 
-	public void setName(String name) {
-		this.name = name;
-	}
+    public void setName(String name) {
+        this.name = name;
+    }
 
-	public String getNick() {
-		return nick;
-	}
+    public String getNick() {
+        return nick;
+    }
 
-	public void setNick(String nick) {
-		this.nick = nick;
-	}
+    public void setNick(String nick) {
+        this.nick = nick;
+    }
 
 }

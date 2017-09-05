@@ -1,10 +1,9 @@
 <!DOCTYPE html>
-<html 
-	xmlns:th="http://www.thymeleaf.org"
-	xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity4"
-	lang="en">
+<html
+        xmlns:th="http://www.thymeleaf.org"
+        lang="en">
 <head>
-	<th:block th:include="layout/header :: header-meta('Login')"></th:block>
+    <th:block th:include="layout/header :: header-meta('Login')"></th:block>
 </head>
 <body>
 
@@ -12,17 +11,18 @@
 
 <div class="container">
 
-<form class="form-signin" role="form" action="/j_spring_security_check" method="POST">
-	<h2 class="form-signin-heading">Please sign in</h2>
-	<input type="text" name="j_username" class="form-control" placeholder="Name" required="required" autofocus="autofocus" /> 
-	<input type="password" name="j_password" class="form-control" placeholder="Password" required="required" />
-	<button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
-</form>
+    <form class="form-signin" role="form" action="/j_spring_security_check" method="POST">
+        <h2 class="form-signin-heading">Please sign in</h2>
+        <input type="text" name="j_username" class="form-control" placeholder="Name" required="required"
+               autofocus="autofocus"/>
+        <input type="password" name="j_password" class="form-control" placeholder="Password" required="required"/>
+        <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+    </form>
 
 
-<br /><br />
+    <br/><br/>
 
-<th:block th:include="layout/footer :: footer"></th:block>
+    <th:block th:include="layout/footer :: footer"></th:block>
 
 </div>
 </body>
