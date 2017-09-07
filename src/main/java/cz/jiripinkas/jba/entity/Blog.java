@@ -3,6 +3,7 @@ package cz.jiripinkas.jba.entity;
 import cz.jiripinkas.jba.annotation.UniqueBlog;
 import cz.jiripinkas.jba.annotation.UniqueShortName;
 import cz.jiripinkas.jba.util.MyUtil;
+import lombok.Data;
 import org.hibernate.validator.constraints.URL;
 
 import javax.persistence.*;
@@ -12,6 +13,7 @@ import java.util.Date;
 import java.util.List;
 
 @Entity
+@Data
 public class Blog {
 
     @Id
@@ -82,152 +84,8 @@ public class Blog {
 
     private Boolean archived;
 
-    public Boolean getArchived() {
-        return archived;
-    }
-
-    public void setArchived(Boolean archived) {
-        this.archived = archived;
-    }
-
-    public Integer getMinRedditUps() {
-        return minRedditUps;
-    }
-
-    public void setMinRedditUps(Integer minRedditUps) {
-        this.minRedditUps = minRedditUps;
-    }
-
-    public Integer getPopularity() {
-        return popularity;
-    }
-
-    public void setPopularity(Integer popularity) {
-        this.popularity = popularity;
-    }
-
     public String getPublicName() {
         return MyUtil.getPublicName(nick, name, false);
-    }
-
-    public void setAggregator(Boolean aggregator) {
-        this.aggregator = aggregator;
-    }
-
-    public Boolean getAggregator() {
-        return aggregator;
-    }
-
-    public void setCategory(Category category) {
-        this.category = category;
-    }
-
-    public Category getCategory() {
-        return category;
-    }
-
-    public String getLastCheckErrorText() {
-        return lastCheckErrorText;
-    }
-
-    public void setLastCheckErrorText(String lastCheckErrorText) {
-        this.lastCheckErrorText = lastCheckErrorText;
-    }
-
-    public Integer getLastCheckErrorCount() {
-        return lastCheckErrorCount;
-    }
-
-    public void setLastCheckErrorCount(Integer lastCheckErrorCount) {
-        this.lastCheckErrorCount = lastCheckErrorCount;
-    }
-
-    public Boolean getLastCheckStatus() {
-        return lastCheckStatus;
-    }
-
-    public void setLastCheckStatus(Boolean lastCheckStatus) {
-        this.lastCheckStatus = lastCheckStatus;
-    }
-
-    public String getShortName() {
-        return shortName;
-    }
-
-    public void setShortName(String shortName) {
-        this.shortName = shortName;
-    }
-
-    public String getHomepageUrl() {
-        return homepageUrl;
-    }
-
-    public void setHomepageUrl(String homepageUrl) {
-        this.homepageUrl = homepageUrl;
-    }
-
-    public byte[] getIcon() {
-        return icon;
-    }
-
-    public void setIcon(byte[] icon) {
-        this.icon = icon;
-    }
-
-    public User getUser() {
-        return user;
-    }
-
-    public void setUser(User user) {
-        this.user = user;
-    }
-
-    public List<Item> getItems() {
-        return items;
-    }
-
-    public void setItems(List<Item> items) {
-        this.items = items;
-    }
-
-    public Integer getId() {
-        return id;
-    }
-
-    public void setId(Integer id) {
-        this.id = id;
-    }
-
-    public String getUrl() {
-        return url;
-    }
-
-    public void setUrl(String url) {
-        this.url = url;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public String getNick() {
-        return nick;
-    }
-
-    public void setNick(String nick) {
-        this.nick = nick;
-    }
-
-    public Date getLastIndexedDate() {
-        return lastIndexedDate;
-    }
-
-    public void setLastIndexedDate(Date lastIndexedDate) {
-        this.lastIndexedDate = lastIndexedDate;
     }
 
 }

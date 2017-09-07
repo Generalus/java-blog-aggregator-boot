@@ -1,5 +1,7 @@
 package cz.jiripinkas.jba.atom;
 
+import lombok.Data;
+
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlElement;
@@ -8,16 +10,10 @@ import java.util.List;
 
 @XmlRootElement
 @XmlAccessorType(XmlAccessType.FIELD)
+@Data
 public class Feed {
 
     @XmlElement(name = "entry")
     private List<Entry> entries;
 
-    public List<Entry> getEntries() {
-        return entries;
-    }
-
-    public void setEntries(List<Entry> entries) {
-        this.entries = entries;
-    }
 }

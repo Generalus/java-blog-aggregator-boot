@@ -1,8 +1,11 @@
 package cz.jiripinkas.jba.entity;
 
+import lombok.Data;
+
 import javax.persistence.*;
 import java.util.List;
 
+@Data
 @Entity
 public class Category {
 
@@ -21,44 +24,5 @@ public class Category {
     @Transient
     private int blogCount;
 
-    public int getBlogCount() {
-        return blogCount;
-    }
-
-    public void setBlogCount(int blogCount) {
-        this.blogCount = blogCount;
-    }
-
-    public String getShortName() {
-        return shortName;
-    }
-
-    public void setShortName(String shortName) {
-        this.shortName = shortName;
-    }
-
-    public void setBlogs(List<Blog> blogs) {
-        this.blogs = blogs;
-    }
-
-    public List<Blog> getBlogs() {
-        return blogs;
-    }
-
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
 
 }

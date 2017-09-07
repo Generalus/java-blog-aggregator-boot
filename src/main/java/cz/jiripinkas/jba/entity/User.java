@@ -1,6 +1,7 @@
 package cz.jiripinkas.jba.entity;
 
 import cz.jiripinkas.jba.annotation.UniqueUsername;
+import lombok.Data;
 import org.hibernate.validator.constraints.Email;
 
 import javax.persistence.*;
@@ -9,6 +10,7 @@ import java.util.List;
 
 @Entity
 @Table(name = "app_user")
+@Data
 public class User {
 
     @Id
@@ -37,69 +39,5 @@ public class User {
     private List<Blog> blogs;
 
     private boolean admin;
-
-    public boolean isAdmin() {
-        return admin;
-    }
-
-    public void setAdmin(boolean admin) {
-        this.admin = admin;
-    }
-
-    public boolean isEnabled() {
-        return enabled;
-    }
-
-    public void setEnabled(boolean enabled) {
-        this.enabled = enabled;
-    }
-
-    public List<Blog> getBlogs() {
-        return blogs;
-    }
-
-    public void setBlogs(List<Blog> blogs) {
-        this.blogs = blogs;
-    }
-
-    public List<Role> getRoles() {
-        return roles;
-    }
-
-    public void setRoles(List<Role> roles) {
-        this.roles = roles;
-    }
-
-    public Integer getId() {
-        return id;
-    }
-
-    public void setId(Integer id) {
-        this.id = id;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public String getEmail() {
-        return email;
-    }
-
-    public void setEmail(String email) {
-        this.email = email;
-    }
-
-    public String getPassword() {
-        return password;
-    }
-
-    public void setPassword(String password) {
-        this.password = password;
-    }
 
 }

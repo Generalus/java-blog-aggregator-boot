@@ -1,11 +1,14 @@
 package cz.jiripinkas.jba.rss;
 
+import lombok.Data;
+
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlElement;
 import java.util.List;
 
 @XmlAccessorType(XmlAccessType.FIELD)
+@Data
 public class TRssChannel {
 
     private String title;
@@ -18,45 +21,5 @@ public class TRssChannel {
 
     @XmlElement(name = "item")
     List<TRssItem> items;
-
-    public List<TRssItem> getItems() {
-        return items;
-    }
-
-    public void setItems(List<TRssItem> items) {
-        this.items = items;
-    }
-
-    public String getTitle() {
-        return title;
-    }
-
-    public void setTitle(String title) {
-        this.title = title;
-    }
-
-    public String getLink() {
-        return link;
-    }
-
-    public void setLink(String link) {
-        this.link = link;
-    }
-
-    public String getDescription() {
-        return description;
-    }
-
-    public void setDescription(String description) {
-        this.description = description;
-    }
-
-    public String getLastBuildDate() {
-        return lastBuildDate;
-    }
-
-    public void setLastBuildDate(String lastBuildDate) {
-        this.lastBuildDate = lastBuildDate;
-    }
 
 }

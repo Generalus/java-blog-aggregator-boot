@@ -1,11 +1,14 @@
 package cz.jiripinkas.jba.entity;
 
+import lombok.Data;
+
 import javax.persistence.*;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
 @Entity
 @Table(name = "news_item")
+@Data
 public class NewsItem {
 
     @Id
@@ -30,54 +33,6 @@ public class NewsItem {
 
     public String getFormattedPuslihedDate() {
         return new SimpleDateFormat("dd.MM.yyyy HH:mm:ss").format(publishedDate);
-    }
-
-    public String getShortDescription() {
-        return shortDescription;
-    }
-
-    public void setShortDescription(String shortDescription) {
-        this.shortDescription = shortDescription;
-    }
-
-    public String getShortName() {
-        return shortName;
-    }
-
-    public void setShortName(String shortName) {
-        this.shortName = shortName;
-    }
-
-    public Integer getId() {
-        return id;
-    }
-
-    public void setId(Integer id) {
-        this.id = id;
-    }
-
-    public String getTitle() {
-        return title;
-    }
-
-    public void setTitle(String title) {
-        this.title = title;
-    }
-
-    public String getDescription() {
-        return description;
-    }
-
-    public void setDescription(String description) {
-        this.description = description;
-    }
-
-    public Date getPublishedDate() {
-        return publishedDate;
-    }
-
-    public void setPublishedDate(Date publishedDate) {
-        this.publishedDate = publishedDate;
     }
 
 }
