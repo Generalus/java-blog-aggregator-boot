@@ -17,10 +17,7 @@ public class UniqueBlogValidator implements ConstraintValidator<UniqueBlog, Stri
 
     @Override
     public boolean isValid(String url, ConstraintValidatorContext context) {
-        if (blogRepository == null) {
-            return true;
-        }
-        return blogRepository.findByUrl(url) == null;
+        return blogRepository == null || blogRepository.findByUrl(url) == null;
     }
 
 }
